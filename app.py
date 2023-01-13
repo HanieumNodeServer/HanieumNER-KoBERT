@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from inference import inference,data_to_input
 from flask import Flask, request, jsonify
 from model.tokenization_kobert import KoBertTokenizer
@@ -49,7 +48,7 @@ def get_result():
 
 
 if __name__ == '__main__':
-=======
+    
 from inference import inference,data_to_input
 from flask import Flask, request, jsonify
 from model.tokenization_kobert import KoBertTokenizer
@@ -98,5 +97,4 @@ def get_result():
 
 
 if __name__ == '__main__':
->>>>>>> afacd17016963c110f74a4bedc5a87604a932461
     app.run('0.0.0.0', port=5001, debug=True)
