@@ -28,7 +28,7 @@
 - 특정 작업(문서 분류, 번역, 질의 응답)을 위해 **pre-training된 모델**에 **신경망을 추가하여 미세 조정(fine-tuning)** = *"Transfer-Learning"*
 - SKTBrain에서 공개한 한국어 문장을 학습한 한국어 BERT인 **KoBERT** 모델 사용
 
-#### 학습 흐름도
+### 학습 흐름도
 ![image](https://user-images.githubusercontent.com/77714083/217759721-84818334-381c-4e6b-ab70-50ebdbe07a0b.png)
 
 
